@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+.myform {
+    flex-direction: column;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    height: 1700px;
+    width: 550px;
+   
+   
+}
+
+input[type=text],
+textarea,
+select{
+
+    width: 80%;
+    padding: 20px;
+    border: 1px solid black
+
+}
+.stjärna {
+    color: red;
+}
+
+.btn{
+    background-color: yellow;
+    height: 40px;
+    width: 120px;
+    border-color: yellow;
+    font-weight: 700;
+}
+
+input[type=email],
+textarea,
+select{
+    width: 80%;
+    padding: 20px;
+    border: 1px solid black;
+}
+input[type=number],
+textarea,
+select{
+    width: 80%;
+    padding: 20px;
+    border: 1px solid black;
+   
+}
+input[type=tel],
+textarea,
+select{
+    width: 80%;
+    padding: 20px;
+    border: 1px solid black;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="robust" content="width=device-width, initial-scale=1.0">
+    <title>my form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="myform" action="https://httpbin.org/anything" method="post">
+        <h1 class="skapakonto">Skapa Konto</h1>
+        <p> Skapa ett konto för att
+        enklare administrera dina order samt för 
+        att ta del av rabatter och erbjudanden!</p>
+      
+                <label for="fname">FÖRNAMN</label>
+                <input 
+                id="fname" 
+                name="fname" 
+                type="text" 
+                required 
+                aria-required="true" 
+                /> 
+        
+    
+
+     
+        <label for="lname">EFTERNAMN</label>
+        <input id="lname" name="lname"
+        type="text"
+            required
+            aria-required="true"/>
+   
+        <label for="email">E-POST</label>
+        <input id="email" name="email" 
+        type="email" />
+
+        <h2 class="rabatteradepriser">Vill du ha rabatterade priser?</h2>
+        <p> Vill du ta del av medlemspriser och fina erbjudanden? Fyll då i personnummer 
+            och telefonnummer för att bli medlem i Mekonomens kundklubb. 
+            (Ej obligatoriskt för att skapa konto)</p>
+        
+        <label for="number">TELEFONNUMMER</label>
+        <input type="tel"
+            name="tel" 
+            type="tel" 
+            /> </div> 
+        <label for="personnummer">PERSONNUMMER</label>
+            <input 
+            id="personnummer" 
+            name="personnummer" 
+            type="number" 
+            />
+         <h2 class="kontaktinformation">Kontaktinformation</h2>
+         <label for="pwd">LÖSENORD*</label>
+         <input id="password" namn="pwd" type="text"
+         required
+         aria-required="true"/>
+         
+        
+         <label for="confirm pwd">BEKRÄFTA LÖSENORD*</label>
+         <input id="confirm pwd" namn="confirm pwd" type="text"
+         required
+         aria-required="true"/>
+         <div class="stjärna">*Obligatorisk</div>
+
+         <div class="checkboxar">
+
+         <label for="myCheckbox">Jag bekräftar att jag tagit del av integritetspolicyn</label>
+         <input type="checkbox" id="integritetspolicyn" name="integritetspolicyn"
+         required
+         aria-required="true"/>
+
+         
+        
+         <br>
+
+         </br>
+
+            <label for="myCheckbox">Jag godkänner medlemsvillkoren</label>
+            
+            <input type="checkbox" id="medlemsvillkor" name="medlemsvillkor"
+            required
+            aria-required="true"/>
+            <br>
+
+         </br>
+            
+            <button class="btn" input type="submit">Skapa ett konto</button>
+           
+   
+           	</div>
+
+           
+         
+        
+       
+        
+         
+            
+
+       
+
+
+
+
+         </form>
+    
+</body>
+</html>
